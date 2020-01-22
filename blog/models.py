@@ -19,4 +19,4 @@ class Post(models.Model):
 
     #default To String method
     def __str__(self):
-        return self.title
+        return self.title +" : "+ self.author
